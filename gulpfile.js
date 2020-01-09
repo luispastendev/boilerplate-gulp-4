@@ -19,7 +19,7 @@ var svgmin = require('gulp-svgmin');
 var uglify = require('gulp-terser');
 
 var configs  = {
-    hash: true,
+    hash: false,
     clean: true, // BORRAR EL BUILD
 	copy: true,
 	svg: true,

@@ -1,7 +1,23 @@
-@import 'utils/config';
-@import 'base/reset';
-@import 'components/navbar';
+@import '../../node_modules/foundation-sites/scss/foundation.scss';
 
-.wrapper{
-    background: url(../imgs/2.jpg);
-}
+
+
+// $button-background: #6ED6D5;
+
+
+
+$body-font-family: 'Titillium Web', sans-serif;
+$header-font-family: 'Titillium Web', sans-serif;
+$button-radius: 3px;
+$button-font-weight: 700;
+$button-color: $white;
+
+
+@include foundation-typography;
+@include foundation-global-styles;
+
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+
+@include foundation-button;
+
